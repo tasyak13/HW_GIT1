@@ -5,7 +5,6 @@
 Копируем код (например git@github.com:tasyak13/HW_FE9.git) 
 В GitBush вводим команду git clone git@github.com:tasyak13/HW_FE9.git
 
-
 2. Как создать git репозиторий из локального каталога на своем компьютере. Как его отправить на github.com?
 Например мы создали файл text.txt
 Папка в которой мы находимся, мы делаем git init, а потом добовляем файл git add text.txt 
@@ -18,6 +17,7 @@ git remote add origin git@github.com:tasyak13/HW_GIT1.git
 git push -u origin main
 
 3. Как получить на локальный компьютер изменения с github.com
+Находясь в нужном нам локальном директории в GitBush вводим команду git pull
 
 4. Какую информацию нам дают команда :
 git status - показывает информацию о текущем состоянии репозиториия
